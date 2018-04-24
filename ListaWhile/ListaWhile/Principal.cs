@@ -18,7 +18,7 @@ namespace ExemploWhile
                 {
                     Console.Write("Número: ");
                     numero = Convert.ToInt32(Console.ReadLine());
-                    if (numero > 0)
+                    if (numero >= 1)
                     {
                          validarNumero = false;
                     }
